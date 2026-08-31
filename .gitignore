@@ -1,0 +1,23 @@
+# 归档的临时产物（确认无误后手动删除）
+_trash/
+
+# Python
+__pycache__/
+.venv/
+
+# IDE
+.idea/
+
+# 编译产物
+*.exe
+
+# VS/CMake 工程缓存
+cpp/out/
+cpp/.vs/
+
+# 中间产物（raw/npy 均可重新生成）
+*.raw
+*.npy
+
+# 运行时依赖
+*.dll
